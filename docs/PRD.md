@@ -310,7 +310,8 @@ ignored ratio.
 4.9.1. Analysis is a single forward pass. Cost is linear in input length.
 
 4.9.2. `maxLetters` option (default null, meaning no limit): stop after
-that many counted letters and mark the result as truncated. This replaces
+that many counted letters (in `count` mode, counted marks are letters for
+this purpose) and mark the result as truncated. This replaces
 "look at the first N characters": a lead made of a long URL or a table of
 numbers no longer starves the sample. Truncation never splits a code point,
 and a trailing run of marks belonging to the last counted base is still
@@ -340,10 +341,11 @@ scripts. Case and `_` versus `-` do not matter.
 doi brx` to `Deva`; `bn as` to `Beng`; `pa` to `Guru`; `gu` to `Gujr`;
 `or` to `Orya`; `ta` to `Taml`; `te` to `Telu`; `kn tcy` to `Knda`; `ml` to
 `Mlym`; `si` to `Sinh`; `sat` to `Olck`; `mni` to `Mtei` and `Beng`; `ur ks
-sd ar fa` to `Arab`; `en fr de es pt it nl` and other Latin-default
-languages to `Latn`; `ru uk` to `Cyrl`; `el` to `Grek`; `he` to `Hebr`;
-`th` to `Thai`; `zh` to `Hani`; `ja` to `Hani Hira Kana`; `ko` to `Hang`
-(plus `Hani`).
+sd ar fa` to `Arab`; `en fr de es pt it nl` and every other language whose
+default script is Latin to `Latn` (the builder takes the list from CLDR
+likely-subtags data and records it in ARCHITECTURE.md); `ru uk` to `Cyrl`; `el` to `Grek`; `he` to `Hebr`;
+`th` to `Thai`; `zh` to `Hani`; `ja` to `Hani Hira Kana`; `ko` to `Hang` and
+`Hani`.
 
 4.10.4. An unknown language returns null. It does not guess Latin.
 
@@ -573,7 +575,15 @@ to section 4.
 48. (9) A 1 MiB generated mixed string is analysed without exceeding the
     memory budget (asserted with `memory_get_peak_usage` deltas, generous
     margin); timing is reported by the bench script, not asserted.
-49. (10) The golden file test: a fixed corpus of a few hundred lines in all
+49. (4.4.1, 4.4.2) A result for mixed text reports totals, per-script counts
+    and shares; scripts with no letters are absent from the lists.
+50. (4.8.5) Valid UTF-8 made of control characters only is analysed without
+    error and gives 0 letters.
+51. (4.9.1) Doubling the input length roughly doubles the work (covered by
+    the memory test and the bench script, not a timing assertion).
+52. (4.10.1, 4.10.5) `scriptsFor('en-IN')`, `scriptsFor('EN')` and
+    `scriptsFor('hi_IN')` give the same answers as the bare tags.
+53. (10) The golden file test: a fixed corpus of a few hundred lines in all
     listed scripts produces committed expected counts identical on 8.1,
     8.2 and 8.3.
 
@@ -594,6 +604,9 @@ to section 4.
    closed; strings keep it complete.
 5. Should `checkLanguage` default `minShare` per script family? Current
    answer: no default, the caller passes it.
+6. Exact `skipLinks` matching (4.5.4): where a link ends when it is followed
+   by closing punctuation such as `)` or `.`, and how strict the email
+   pattern is. Pick the simplest linear rule, state it, and test it.
 
 ## 14. Lessons from production (rules)
 
