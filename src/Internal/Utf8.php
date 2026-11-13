@@ -15,6 +15,9 @@ namespace IndianOpinion\ScriptShare\Internal;
  */
 final class Utf8
 {
+    /** ASCII bytes that can start or continue a link, email, mention or hashtag prefix. */
+    private const LINK_BYTES = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._%+-:/@#';
+
     private function __construct()
     {
     }
@@ -101,6 +104,23 @@ final class Utf8
         }
 
         return $limit;
+    }
+
+    /**
+     * Move a forced cut back to the start of the ASCII run of link and tag
+     * characters (letters, digits, `. _ % + - : / @ #`) that ends at it, so
+     * a link, email, mention or hashtag that begins in that run is never
+     * split before the scanner has recognised it. The cut stays put when
+     * the run reaches the start of the window or is longer than $max bytes.
+     */
+    public static function beforeLinkTail(string $s, int $cut, int $max): int
+    {
+        $tail = strspn(strrev(substr($s, 0, $cut)), self::LINK_BYTES);
+        if ($tail === 0 || $tail >= $cut || $tail > $max) {
+            return $cut;
+        }
+
+        return $cut - $tail;
     }
 
     /**

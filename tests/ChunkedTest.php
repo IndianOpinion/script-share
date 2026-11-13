@@ -56,7 +56,7 @@ final class ChunkedTest extends TestCase
     public function testMaxLettersSkipsAPoorLead(): void
     {
         $text = 'https://example.com/' . str_repeat('a', 500) . ' 1 2 3 4 5 6 7 8 9 ' . self::HINDI;
-        $r = (new Analyser(new Options(maxLetters: 20)))->analyse($text);
+        $r = (new Analyser(new Options(skipLinks: true, maxLetters: 20)))->analyse($text);
         self::assertSame(Script::Deva, $r->dominant(0.99));
         self::assertTrue($r->truncated());
     }
@@ -79,7 +79,7 @@ final class ChunkedTest extends TestCase
     public function testEverySplitPointGivesTheSameResult(): void
     {
         $text = self::HINDI . " e\u{0301} क\u{200D}\u{0951} https://example.com/x #टैग";
-        foreach ([new Options(), new Options(marks: MarkMode::Ignore, skipLinks: false)] as $options) {
+        foreach ([new Options(skipLinks: true), new Options(marks: MarkMode::Ignore)] as $options) {
             $whole = (new Analyser($options))->analyse($text);
             for ($i = 0; $i <= strlen($text); ++$i) {
                 $acc = (new Analyser($options))->accumulator();
@@ -166,15 +166,37 @@ final class ChunkedTest extends TestCase
     #[DataProvider('windowed')]
     public function testSmallWindowsChangeNothing(string $text): void
     {
-        $whole = (new Analyser())->analyse($text);
-        foreach ([16, 17, 31, 64] as $window) {
-            $acc = new Accumulator(null, $window);
-            foreach (str_split($text, 7) as $piece) {
-                $acc->add($piece);
+        foreach ([new Options(), new Options(skipLinks: true)] as $options) {
+            $whole = (new Analyser($options))->analyse($text);
+            foreach ([16, 17, 31, 64] as $window) {
+                $acc = new Accumulator($options, $window);
+                foreach (str_split($text, 7) as $piece) {
+                    $acc->add($piece);
+                }
+                $r = $acc->finish();
+                $label = "window $window, skipLinks " . ($options->skipLinks ? 'on' : 'off');
+                self::assertSame($whole->counts(), $r->counts(), $label);
+                self::assertSame($whole->codePoints(), $r->codePoints(), $label);
             }
-            $r = $acc->finish();
-            self::assertSame($whole->counts(), $r->counts(), "window $window");
-            self::assertSame($whole->codePoints(), $r->codePoints(), "window $window");
+        }
+    }
+
+    /**
+     * A run with no whitespace longer than a window is cut at a code point.
+     * The cut moves back before an ASCII link, email, mention or hashtag
+     * prefix, so a prefix that would have straddled it is still skipped.
+     */
+    public function testForcedCutKeepsLinkPrefixesWhole(): void
+    {
+        $analyser = new Analyser(new Options(skipLinks: true));
+        foreach (['https://example.com/abc', 'www.example.com', 'user@example.com', '#tag', '@handle'] as $link) {
+            for ($pad = 1; $pad <= 40; ++$pad) {
+                $lead = Accumulator::DEFAULT_WINDOW - $pad;
+                $text = str_repeat('|', $lead % 3) . str_repeat('क', intdiv($lead, 3)) . $link . ' ख';
+                $r = $analyser->analyse($text);
+                self::assertSame(0, $r->count(Script::Latn), "$link at cut minus $pad");
+                self::assertSame(intdiv($lead, 3) + 1, $r->count(Script::Deva), "$link at cut minus $pad");
+            }
         }
     }
 

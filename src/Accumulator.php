@@ -25,6 +25,13 @@ final class Accumulator
 {
     public const DEFAULT_WINDOW = 16384;
 
+    /**
+     * How far a forced cut may move back to keep a link prefix whole. A
+     * prefix is at most 66 bytes (a 64-byte email local part, `@`, one more
+     * byte), so 256 leaves room for ASCII text glued in front of it.
+     */
+    private const LINK_TAIL = 256;
+
     private Options $options;
     private Scanner $scanner;
     private int $window;
@@ -104,6 +111,9 @@ final class Accumulator
             $forced = $cut === 0;
             if ($forced) {
                 $cut = Utf8::safeCut($win, $this->window);
+                if ($this->options->skipLinks) {
+                    $cut = Utf8::beforeLinkTail($win, $cut, self::LINK_TAIL);
+                }
             }
             $this->processWindow(substr($win, 0, $cut), $this->base + $offset, $forced);
             $offset += $cut;
