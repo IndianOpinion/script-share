@@ -13,6 +13,7 @@ use IndianOpinion\ScriptShare\Options;
 use IndianOpinion\ScriptShare\Script;
 use IndianOpinion\ScriptShare\ScriptShare;
 use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\RunInSeparateProcess;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -117,6 +118,12 @@ final class InvalidUtf8Test extends TestCase
     }
 
     // 40. (4.8.4)
+
+    /**
+     * Runs alone: PHP caches compiled patterns with their JIT code, and a
+     * JIT-compiled pattern from an earlier test would ignore pcre.jit=0.
+     */
+    #[RunInSeparateProcess]
     public function testPcreFailureThrowsInsteadOfReturningZero(): void
     {
         $jit = ini_get('pcre.jit');

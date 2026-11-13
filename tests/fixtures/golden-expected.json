@@ -5439,16 +5439,18 @@
     {
         "count": {
             "code_points": 86,
-            "letters": 7,
+            "letters": 60,
             "counts": {
-                "Latn": 7
+                "Latn": 57,
+                "Deva": 3
             }
         },
         "ignore": {
             "code_points": 86,
-            "letters": 7,
+            "letters": 60,
             "counts": {
-                "Latn": 7
+                "Latn": 57,
+                "Deva": 3
             }
         }
     },

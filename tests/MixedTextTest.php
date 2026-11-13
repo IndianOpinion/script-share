@@ -18,7 +18,12 @@ final class MixedTextTest extends TestCase
 {
     private static function counting(): Analyser
     {
-        return new Analyser(new Options(skipLinks: false));
+        return new Analyser();
+    }
+
+    private static function skipping(): Analyser
+    {
+        return new Analyser(new Options(skipLinks: true));
     }
 
     // 23. (4.5.1)
@@ -47,7 +52,7 @@ final class MixedTextTest extends TestCase
     public function testSkipLinksKeepsAHindiSentenceHindi(): void
     {
         $text = 'पूरी खबर यहाँ पढ़ें https://www.example.com/news/2026/11/12/a-very-long-article-slug-in-english?utm_source=feed';
-        $on = ScriptShare::analyse($text);
+        $on = self::skipping()->analyse($text);
         self::assertSame(1.0, $on->share(Script::Deva));
         self::assertSame(['Deva'], array_keys($on->counts()));
 
@@ -83,29 +88,30 @@ final class MixedTextTest extends TestCase
     #[DataProvider('skipped')]
     public function testLinksTagsAndEmails(string $text, int $on, int $off): void
     {
-        self::assertSame($on, ScriptShare::analyse($text)->count(Script::Latn), 'skipLinks on');
+        self::assertSame($on, self::skipping()->analyse($text)->count(Script::Latn), 'skipLinks on');
         self::assertSame($off, self::counting()->analyse($text)->count(Script::Latn), 'skipLinks off');
     }
 
-    public function testHindiHashtagIsSkippedByDefault(): void
+    public function testHindiHashtagIsSkippedOnlyWhenAskedFor(): void
     {
-        $r = ScriptShare::analyse('आज #भारत में');
+        $r = self::skipping()->analyse('आज #भारत में');
         self::assertSame(5, $r->count(Script::Deva));
         self::assertSame(9, self::counting()->analyse('आज #भारत में')->count(Script::Deva));
     }
 
     public function testInheritedMarkAfterLinkIsIgnored(): void
     {
-        $r = ScriptShare::analyse("https://example.com/a\u{0301}");
+        $r = self::skipping()->analyse("https://example.com/a\u{0301}");
         self::assertSame(0, $r->letters());
     }
 
     public function testDefaultOptions(): void
     {
         $o = new Options();
-        self::assertTrue($o->skipLinks);
+        self::assertFalse($o->skipLinks, 'PRD 4.5.4: links count by default');
         self::assertNull($o->maxLetters);
-        self::assertFalse($o->withSkipLinks(false)->skipLinks);
-        self::assertTrue($o->skipLinks, 'with*() returns a copy');
+        self::assertTrue($o->withSkipLinks(true)->skipLinks);
+        self::assertFalse($o->skipLinks, 'with*() returns a copy');
+        self::assertSame(19, ScriptShare::analyse('see www.example.com now')->count(Script::Latn));
     }
 }

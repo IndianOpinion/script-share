@@ -147,7 +147,7 @@ final class LetterRulesTest extends TestCase
             for ($k = 0; $k < $len; ++$k) {
                 $s .= $pool[mt_rand(0, count($pool) - 1)];
             }
-            foreach ([new Options(), new Options(marks: MarkMode::Ignore, skipLinks: false)] as $options) {
+            foreach ([new Options(skipLinks: true), new Options(marks: MarkMode::Ignore)] as $options) {
                 $r = (new Analyser($options))->analyse($s);
                 self::assertSame(mb_strlen($s, 'UTF-8'), $r->letters() + $r->ignored(), bin2hex($s));
                 self::assertSame(mb_strlen($s, 'UTF-8'), $r->codePoints());

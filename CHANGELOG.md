@@ -20,7 +20,7 @@ uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   content-free `reason()` line.
 - `Options`: mark mode (count or ignore), invalid UTF-8 mode (throw, or
   substitute maximal subparts), `skipLinks` (URLs, emails, mentions and
-  hashtags, on by default) and `maxLetters`.
+  hashtags, off by default) and `maxLetters`.
 - 23 named scripts plus `Zzzz` for every other real script.
 - BCP 47 language tag to expected script mapping.
 - Typed exceptions under one marker interface.

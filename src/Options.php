@@ -19,7 +19,7 @@ final class Options
     /**
      * @param MarkMode    $marks      Count combining marks with their script, or ignore them.
      * @param InvalidMode $invalid    Throw on invalid UTF-8, or substitute.
-     * @param bool        $skipLinks  Treat URLs, emails, @mentions and #hashtags as ignored.
+     * @param bool        $skipLinks  Treat URLs, emails, @mentions and #hashtags as ignored (off by default).
      * @param int|null    $maxLetters Stop after this many counted letters (null: no limit).
      *
      * @throws InvalidArgumentException when $maxLetters is below 1.
@@ -27,7 +27,7 @@ final class Options
     public function __construct(
         MarkMode $marks = MarkMode::Count,
         InvalidMode $invalid = InvalidMode::Throw,
-        bool $skipLinks = true,
+        bool $skipLinks = false,
         ?int $maxLetters = null,
     ) {
         if ($maxLetters !== null && $maxLetters < 1) {
