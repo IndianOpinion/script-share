@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="script-share">
+    <description>PSR-12 for script-share.</description>
+    <file>src</file>
+    <file>tests</file>
+    <file>bin</file>
+    <file>bench</file>
+    <file>examples</file>
+    <arg name="extensions" value="php"/>
+    <arg name="colors"/>
+    <arg value="sp"/>
+    <rule ref="PSR12"/>
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="0"/>
+        </properties>
+        <exclude-pattern>tests/*</exclude-pattern>
+    </rule>
+</ruleset>
