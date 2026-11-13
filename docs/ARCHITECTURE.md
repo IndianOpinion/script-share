@@ -66,8 +66,13 @@ follows the PCRE build, and keep a golden-file test that runs on 8.1 to 8.3.
   long-vowel mark is Hiragana. The PRD defines attribution by the Script
   property, so the library asks for `sc:` where it exists. Without this,
   results differ between PHP builds.
+- Checked against the public PCRE2 ChangeLog: 10.40 item 17 added the
+  `sc:` and `scx:` qualifiers and changed a bare script name from Script to
+  Script_Extensions, so the guard is exactly right.
 - Unicode version: whatever the PCRE library has. PCRE2 10.39 to 10.42 carry
-  Unicode 14, 10.43 and later carry Unicode 15. The README says so.
+  Unicode 14, 10.43 and 10.44 Unicode 15, 10.45 to 10.47 Unicode 16, 10.48
+  Unicode 17. PHP bundles 10.39 (8.1), 10.40 (8.2) and 10.42 (8.3). The
+  Unicode 14 guarantee needs PCRE2 10.39 or later. The README says so.
 - `tests/GoldenTest.php` checks 308 lines (every script alone, every pair
   of scripts, and edge cases) against committed counts in both mark modes.
   The corpus uses only code points from Unicode 14.0 or older. A second test
@@ -96,31 +101,39 @@ The pattern runs over 16 KiB windows, which bounds the match arrays. The
 mb_str_split route was rejected for memory (tens of bytes per code point);
 `preg_match` with an offset loop was rejected for per-call overhead.
 
-Measured with `php bench/bench.php` on PHP 8.3.6, PCRE2 10.42, one core,
-opcache JIT off, PCRE JIT on (the PHP default), best of several runs:
+Measured with `php bench/bench.php` on PHP 8.3.6, PCRE2 10.42, one core of
+a shared two-core VM, opcache JIT off, default options, best of several
+runs:
 
-| Input | Time | Extra peak memory |
-|---|---|---|
-| 1 KiB mixed Hindi and English | 0.11 ms | 174 KiB |
-| 1 MiB mixed Hindi and English | 93 ms | 361 KiB |
-| 8 MiB mixed Hindi and English | 700 ms (7.5 times 1 MiB) | 351 KiB |
-| 1 MiB of `a.` (one token per byte, worst case) | 897 ms | 1055 KiB |
+| Input | PCRE JIT on (PHP default) | PCRE JIT off | Extra peak memory |
+|---|---|---|---|
+| 1 KiB mixed Hindi and English | 0.09 ms | 0.2 ms | 174 KiB |
+| 1 MiB mixed Hindi and English | 70 ms | 200 ms | 388 KiB |
+| 1 MiB, `skipLinks` on | 68 ms | 230 ms | 351 KiB |
+| 8 MiB mixed Hindi and English | 600 ms (8.7 times 1 MiB) | 1.7 s | 375 KiB |
+| 1 MiB of `a.` (one token per byte, worst case) | 450 ms | 1.7 s | 1055 KiB |
 
-All budgets in PRD section 9 are met with PCRE JIT on. With `pcre.jit=0` the
-1 MiB case takes 662 ms and the 1 KiB case 0.31 ms; the README states this.
+The VM is noisy: single runs vary by up to two times, so read the best of
+several. All budgets in PRD section 9 are met with PCRE JIT on. With
+`pcre.jit=0` the 1 MiB case misses the 150 ms budget and the 1 KiB case sits
+at the 0.2 ms line, so the README states the budgets as holding with PCRE
+JIT on. Memory and linear scaling hold either way.
 The worst-case row is not a budget case but shows memory stays flat.
 `tests/PerformanceTest.php` asserts the 4 MiB memory budget for the 1 MiB
 mixed input and for the worst case, in a separate process.
 
-### D3. `skipLinks` covers hashtags and mentions, on by default (PRD 13.3)
+### D3. `skipLinks` covers hashtags and mentions, off by default (PRD 13.3)
 
-Ruling: `skipLinks` also skips hashtags and mentions, and is on by default.
-This changes the PRD's stated default (off). Reason: in model output and
-scraped text, URLs, handles and tags are almost always Latin and say nothing
-about the language of the prose; skipping them by default stops a Hindi post
-with a long link from failing a Hindi check. A Hindi hashtag is skipped too,
-which costs little. Callers who want counts to match the visible text pass
-`skipLinks: false`.
+Ruling: `skipLinks` also skips hashtags and mentions, and stays off by
+default as PRD 4.5.4, 5 and 7 state, so counts match the visible text. The
+build first turned it on by default; review reverted that, because the PRD
+fixes the default (only spelling may change), and on by default would also
+drop Hindi hashtags (`आज #भारत में` counts 5 Devanagari letters, not 9),
+which the PRD's own answer to 13.3 rejects. With the option opt-in, skipping
+tags with links is a fair answer for callers who ask for it: in model output
+and scraped text, URLs, handles and tags say little about the language of
+the prose. The README recommends `skipLinks: true` for model output and with
+`maxLetters`, and notes that Hindi hashtags are skipped too.
 
 ### D4. `Zzzz` for unlisted scripts (PRD 13.4)
 
@@ -169,9 +182,13 @@ are separate tokens, so a cut there is always a token boundary with no mark
 context. When a window has no ASCII whitespace at all, it is cut at a code
 point boundary and the scanner carries the mark context and any open link
 (a link anywhere after the window's last whitespace) or tag (the last token)
-into the next window. The one remaining difference from an unsplit scan is
-a link whose start straddles such a cut, inside a run of over 16 KiB with
-no whitespace. The README lists it under limitations.
+into the next window. With `skipLinks` on, a forced cut first moves back
+to the start of the ASCII run of link characters (letters, digits,
+`. _ % + - : / @ #`) that ends at it, up to 256 bytes, so a scheme, `www.`,
+email local part, `@` or `#` is never split from what follows it. The one
+remaining difference from an unsplit scan is a link that starts at a forced
+cut inside such a run of more than 256 bytes, within a run of over 16 KiB
+with no whitespace. The README lists it under limitations.
 
 ### D8. Invalid UTF-8
 

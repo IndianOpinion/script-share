@@ -9,8 +9,9 @@ bleeding into another.
 Measured: in a plain Hindi news sentence 37% of the Devanagari code points
 are combining marks, so a naive `\p{L}` count makes Hindi look a third less
 Hindi than it is. script-share counts marks with their script, and analyses
-1 MiB of mixed Hindi and English in about 93 ms with under 0.4 MiB of extra
-memory (PHP 8.3, PCRE JIT on).
+1 MiB of mixed Hindi and English in about 70 ms with under 0.4 MiB of extra
+memory (PHP 8.3 with PCRE JIT on, the PHP default; see Limitations for JIT
+off).
 
 This project came out of the work on indianopinion.org and is written from
 scratch; it is independent of and not affiliated with any third-party plugin
@@ -68,11 +69,11 @@ More in [`examples/`](examples): `basic.php`, `check-model-output.php`,
 |---|---|---|---|
 | `marks` | `MarkMode::Count` or `MarkMode::Ignore` | `Count` | Count combining marks (vowel signs, virama, nukta) as letters of their script. `Ignore` gives parity with tools that count `\p{L}` only. |
 | `invalid` | `InvalidMode::Throw` or `InvalidMode::Substitute` | `Throw` | Throw `InvalidUtf8Exception` (with the byte offset) on invalid UTF-8, or count each maximal invalid subpart as one ignored code point. |
-| `skipLinks` | bool | `true` | Treat URLs, `www.` links, email addresses, `@mentions` and `#hashtags` as ignored, not as Latin letters. |
+| `skipLinks` | bool | `false` | Treat URLs, `www.` links, email addresses, `@mentions` and `#hashtags` as ignored, not as Latin letters. Off by default so counts match the visible text. |
 | `maxLetters` | ?int (1 or more) | `null` | Stop after this many counted letters and mark the result `truncated()`. |
 
 ```php
-$options = new Options(skipLinks: false, maxLetters: 2000);
+$options = new Options(skipLinks: true, maxLetters: 2000);
 $options = $options->withMarks(MarkMode::Ignore);   // with*() returns a copy
 ```
 
@@ -91,6 +92,10 @@ Thresholds that worked in production (guidance, not code defaults):
 - Indic output that may carry English names: `[script, Latn]` at 0.95, or the
   script alone at 0.70. A typical Hindi news paragraph is 0.90 to 0.98
   Devanagari.
+- Turn `skipLinks` on for model output and scraped text, where a long URL
+  or a run of handles is Latin that says nothing about the language of the
+  prose, and always with `maxLetters`, so a lead made of a URL does not use
+  up the sample. Note that it skips a `#हिंदी` hashtag too.
 - Ingest gating: check the title and the lead separately. Treat `too_short`
   as a pass (fail open) so a short headline does not drop an item. Let the
   body overrule an English headline only when most of the body's letters are
@@ -132,11 +137,16 @@ analysing the whole string. `Result::merge()` is for independent texts and
 does not carry mark context across.
 
 **Unicode version.** Script data comes from the PCRE library PHP was built
-with, so the Unicode version follows your PCRE build (PCRE2 10.39 to 10.42
-are Unicode 14; 10.43 and later are Unicode 15). Results are identical on
-PHP 8.1, 8.2 and 8.3 for every code point assigned in Unicode 14.0; a golden
-corpus test checks this in CI. Check yours with
-`php -r 'echo PCRE_VERSION;'`.
+with, so the Unicode version follows your PCRE build: PCRE2 10.39 to 10.42
+are Unicode 14, 10.43 and 10.44 are Unicode 15, 10.45 to 10.47 are Unicode
+16, and 10.48 is Unicode 17. The PCRE2 bundled with PHP is 10.39 in 8.1,
+10.40 in 8.2 and 10.42 in 8.3; distribution builds often link the system
+library instead. On PCRE2 10.40 and later the pattern asks for the Script
+property explicitly (`\p{sc:Devanagari}`), because from 10.40 a bare
+`\p{Devanagari}` means Script_Extensions. Results are identical on any
+PCRE2 10.39 or later for every code point assigned in Unicode 14.0; a golden
+corpus test checks this in CI. Older PCRE2 releases carry older Unicode data.
+Check yours with `php -r 'echo PCRE_VERSION;'`.
 
 ### Logging
 
@@ -175,10 +185,15 @@ Every exception implements `IndianOpinion\ScriptShare\Exception\ScriptShareExcep
   ignored. Check Japanese against `[Hani, Hira, Kana]` (or the tag `ja`).
 - Region subtags are ignored: `pa-PK` maps to Gurmukhi. Use `pa-Arab` for
   Shahmukhi.
-- In a run of over 16 KiB with no whitespace at all, a link whose start
-  straddles a window cut may be counted as letters.
-- Speed depends on PCRE JIT. With `pcre.jit=0` the 1 MiB case takes about
-  660 ms instead of 93 ms.
+- Text is scanned in 16 KiB windows cut after whitespace. In a run of over
+  16 KiB with no ASCII whitespace at all the cut falls inside the run; with
+  `skipLinks` on it moves back before any ASCII link, email, mention or
+  hashtag prefix that ends at it. Only a link that starts inside such a run
+  of more than 256 ASCII letters, digits and `. _ % + - : / @ #` can still
+  be split and counted as letters.
+- The speed budgets (1 KiB under 0.2 ms, 1 MiB under 150 ms) hold with PCRE
+  JIT on, the PHP default. With `pcre.jit=0` the 1 MiB case takes about
+  200 ms and the 1 KiB case about 0.2 ms. Memory stays flat either way.
 
 ## FAQ
 

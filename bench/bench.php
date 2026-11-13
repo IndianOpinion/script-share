@@ -12,6 +12,7 @@ declare(strict_types=1);
 require __DIR__ . '/../src/bootstrap.php';
 
 use IndianOpinion\ScriptShare\Analyser;
+use IndianOpinion\ScriptShare\Options;
 
 $unit = 'भारतीय रिज़र्व बैंक (RBI) ने बुधवार को रेपो दर 6.5% पर स्थिर रखी। Read more at https://example.com/a. ';
 
@@ -24,7 +25,8 @@ $analyser = new Analyser();
 /**
  * @return array{float, int} best time in ms over $runs, and extra peak bytes
  */
-$measure = static function (string $text, int $runs) use ($analyser): array {
+$measure = static function (string $text, int $runs, ?Analyser $with = null) use ($analyser): array {
+    $with ??= $analyser;
     $best = INF;
     $extra = 0;
     for ($i = 0; $i < $runs; ++$i) {
@@ -33,7 +35,7 @@ $measure = static function (string $text, int $runs) use ($analyser): array {
         }
         $before = memory_get_usage();
         $t = hrtime(true);
-        $analyser->analyse($text);
+        $with->analyse($text);
         $best = min($best, (hrtime(true) - $t) / 1e6);
         $extra = max($extra, memory_get_peak_usage() - $before);
     }
@@ -49,6 +51,8 @@ foreach (['1 KiB' => 1024, '1 MiB' => 1 << 20, '8 MiB' => 8 << 20] as $label => 
     $times[$label] = $ms;
     printf("%-10s %12.3f %16d\n", $label, $ms, intdiv($extra, 1024));
 }
+[$ms, $extra] = $measure($make(1 << 20), 10, new Analyser(new Options(skipLinks: true)));
+printf("%-10s %12.3f %16d  (skipLinks on)\n", '1 MiB', $ms, intdiv($extra, 1024));
 printf("8 MiB / 1 MiB time ratio: %.2f (budget: 10 or less)\n", $times['8 MiB'] / $times['1 MiB']);
 [$ms, $extra] = $measure(str_repeat('a.', 512 * 1024), 3);
 printf("worst-case token density, 1 MiB of 'a.': %.3f ms, %d KiB extra\n", $ms, intdiv($extra, 1024));
