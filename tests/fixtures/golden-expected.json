@@ -1,0 +1,5487 @@
+[
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 23,
+            "counts": {
+                "Deva": 23
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 14,
+            "counts": {
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 24,
+            "letters": 21,
+            "counts": {
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 24,
+            "letters": 11,
+            "counts": {
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 23,
+            "letters": 19,
+            "counts": {
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 23,
+            "letters": 9,
+            "counts": {
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 21,
+            "letters": 18,
+            "counts": {
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 21,
+            "letters": 10,
+            "counts": {
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 19,
+            "counts": {
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 11,
+            "counts": {
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 19,
+            "counts": {
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 12,
+            "counts": {
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 22,
+            "counts": {
+                "Telu": 22
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 13,
+            "counts": {
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 15,
+            "letters": 13,
+            "counts": {
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 15,
+            "letters": 9,
+            "counts": {
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 26,
+            "letters": 23,
+            "counts": {
+                "Mlym": 23
+            }
+        },
+        "ignore": {
+            "code_points": 26,
+            "letters": 14,
+            "counts": {
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 19,
+            "letters": 17,
+            "counts": {
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 19,
+            "letters": 11,
+            "counts": {
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 14,
+            "letters": 13,
+            "counts": {
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 14,
+            "letters": 13,
+            "counts": {
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 9,
+            "letters": 8,
+            "counts": {
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 9,
+            "letters": 5,
+            "counts": {
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 15,
+            "letters": 12,
+            "counts": {
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 15,
+            "letters": 7,
+            "counts": {
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 24,
+            "letters": 20,
+            "counts": {
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 24,
+            "letters": 20,
+            "counts": {
+                "Arab": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Latn": 35
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Latn": 35
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 36,
+            "counts": {
+                "Cyrl": 36
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 36,
+            "counts": {
+                "Cyrl": 36
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 27,
+            "counts": {
+                "Grek": 27
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 27,
+            "counts": {
+                "Grek": 27
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 18,
+            "letters": 15,
+            "counts": {
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 18,
+            "letters": 15,
+            "counts": {
+                "Hebr": 15
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 21,
+            "letters": 21,
+            "counts": {
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 21,
+            "letters": 20,
+            "counts": {
+                "Thai": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 7,
+            "letters": 7,
+            "counts": {
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 7,
+            "letters": 7,
+            "counts": {
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 6,
+            "letters": 6,
+            "counts": {
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 6,
+            "letters": 6,
+            "counts": {
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 6,
+            "letters": 6,
+            "counts": {
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 6,
+            "letters": 6,
+            "counts": {
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 9,
+            "letters": 8,
+            "counts": {
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 9,
+            "letters": 8,
+            "counts": {
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 15,
+            "letters": 14,
+            "counts": {
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 15,
+            "letters": 14,
+            "counts": {
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 53,
+            "letters": 44,
+            "counts": {
+                "Deva": 23,
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 53,
+            "letters": 25,
+            "counts": {
+                "Deva": 14,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 52,
+            "letters": 42,
+            "counts": {
+                "Deva": 23,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 52,
+            "letters": 23,
+            "counts": {
+                "Deva": 14,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 41,
+            "counts": {
+                "Deva": 23,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 24,
+            "counts": {
+                "Deva": 14,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 51,
+            "letters": 42,
+            "counts": {
+                "Deva": 23,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 51,
+            "letters": 25,
+            "counts": {
+                "Deva": 14,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 51,
+            "letters": 42,
+            "counts": {
+                "Deva": 23,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 51,
+            "letters": 26,
+            "counts": {
+                "Deva": 14,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 54,
+            "letters": 45,
+            "counts": {
+                "Deva": 23,
+                "Telu": 22
+            }
+        },
+        "ignore": {
+            "code_points": 54,
+            "letters": 27,
+            "counts": {
+                "Deva": 14,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 36,
+            "counts": {
+                "Deva": 23,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 23,
+            "counts": {
+                "Deva": 14,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 55,
+            "letters": 46,
+            "counts": {
+                "Deva": 23,
+                "Mlym": 23
+            }
+        },
+        "ignore": {
+            "code_points": 55,
+            "letters": 28,
+            "counts": {
+                "Deva": 14,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 40,
+            "counts": {
+                "Deva": 23,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 25,
+            "counts": {
+                "Deva": 14,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 36,
+            "counts": {
+                "Deva": 23,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 27,
+            "counts": {
+                "Deva": 14,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 31,
+            "counts": {
+                "Deva": 23,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 19,
+            "counts": {
+                "Deva": 14,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 35,
+            "counts": {
+                "Deva": 23,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 21,
+            "counts": {
+                "Deva": 14,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 53,
+            "letters": 43,
+            "counts": {
+                "Deva": 23,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 53,
+            "letters": 34,
+            "counts": {
+                "Arab": 20,
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 72,
+            "letters": 58,
+            "counts": {
+                "Latn": 35,
+                "Deva": 23
+            }
+        },
+        "ignore": {
+            "code_points": 72,
+            "letters": 49,
+            "counts": {
+                "Latn": 35,
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 71,
+            "letters": 59,
+            "counts": {
+                "Cyrl": 36,
+                "Deva": 23
+            }
+        },
+        "ignore": {
+            "code_points": 71,
+            "letters": 50,
+            "counts": {
+                "Cyrl": 36,
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 62,
+            "letters": 50,
+            "counts": {
+                "Grek": 27,
+                "Deva": 23
+            }
+        },
+        "ignore": {
+            "code_points": 62,
+            "letters": 41,
+            "counts": {
+                "Grek": 27,
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 38,
+            "counts": {
+                "Deva": 23,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 29,
+            "counts": {
+                "Hebr": 15,
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 44,
+            "counts": {
+                "Deva": 23,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 34,
+            "counts": {
+                "Thai": 20,
+                "Deva": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 36,
+            "letters": 30,
+            "counts": {
+                "Deva": 23,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 36,
+            "letters": 21,
+            "counts": {
+                "Deva": 14,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 29,
+            "counts": {
+                "Deva": 23,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 20,
+            "counts": {
+                "Deva": 14,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 29,
+            "counts": {
+                "Deva": 23,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 20,
+            "counts": {
+                "Deva": 14,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 31,
+            "counts": {
+                "Deva": 23,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 22,
+            "counts": {
+                "Deva": 14,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 37,
+            "counts": {
+                "Deva": 23,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 28,
+            "counts": {
+                "Deva": 14,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 40,
+            "counts": {
+                "Beng": 21,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 20,
+            "counts": {
+                "Beng": 11,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 39,
+            "counts": {
+                "Beng": 21,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 21,
+            "counts": {
+                "Beng": 11,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 40,
+            "counts": {
+                "Beng": 21,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 22,
+            "counts": {
+                "Beng": 11,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 40,
+            "counts": {
+                "Beng": 21,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 23,
+            "counts": {
+                "Taml": 12,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 43,
+            "counts": {
+                "Telu": 22,
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 24,
+            "counts": {
+                "Telu": 13,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 34,
+            "counts": {
+                "Beng": 21,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 20,
+            "counts": {
+                "Beng": 11,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 51,
+            "letters": 44,
+            "counts": {
+                "Mlym": 23,
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 51,
+            "letters": 25,
+            "counts": {
+                "Mlym": 14,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 38,
+            "counts": {
+                "Beng": 21,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 22,
+            "counts": {
+                "Beng": 11,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 39,
+            "letters": 34,
+            "counts": {
+                "Beng": 21,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 39,
+            "letters": 24,
+            "counts": {
+                "Olck": 13,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 29,
+            "counts": {
+                "Beng": 21,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 16,
+            "counts": {
+                "Beng": 11,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Beng": 21,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 18,
+            "counts": {
+                "Beng": 11,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 41,
+            "counts": {
+                "Beng": 21,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 31,
+            "counts": {
+                "Arab": 20,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 68,
+            "letters": 56,
+            "counts": {
+                "Latn": 35,
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 68,
+            "letters": 46,
+            "counts": {
+                "Latn": 35,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 67,
+            "letters": 57,
+            "counts": {
+                "Cyrl": 36,
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 67,
+            "letters": 47,
+            "counts": {
+                "Cyrl": 36,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 58,
+            "letters": 48,
+            "counts": {
+                "Grek": 27,
+                "Beng": 21
+            }
+        },
+        "ignore": {
+            "code_points": 58,
+            "letters": 38,
+            "counts": {
+                "Grek": 27,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 36,
+            "counts": {
+                "Beng": 21,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 26,
+            "counts": {
+                "Hebr": 15,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 42,
+            "counts": {
+                "Beng": 21,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 31,
+            "counts": {
+                "Thai": 20,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 28,
+            "counts": {
+                "Beng": 21,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 18,
+            "counts": {
+                "Beng": 11,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 27,
+            "counts": {
+                "Beng": 21,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 17,
+            "counts": {
+                "Beng": 11,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 27,
+            "counts": {
+                "Beng": 21,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 17,
+            "counts": {
+                "Beng": 11,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 29,
+            "counts": {
+                "Beng": 21,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 19,
+            "counts": {
+                "Beng": 11,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 35,
+            "counts": {
+                "Beng": 21,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 25,
+            "counts": {
+                "Zzzz": 14,
+                "Beng": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 45,
+            "letters": 37,
+            "counts": {
+                "Guru": 19,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 45,
+            "letters": 19,
+            "counts": {
+                "Gujr": 10,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 38,
+            "counts": {
+                "Guru": 19,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 20,
+            "counts": {
+                "Orya": 11,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 38,
+            "counts": {
+                "Guru": 19,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 21,
+            "counts": {
+                "Taml": 12,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 41,
+            "counts": {
+                "Telu": 22,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 22,
+            "counts": {
+                "Telu": 13,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 39,
+            "letters": 32,
+            "counts": {
+                "Guru": 19,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 39,
+            "letters": 18,
+            "counts": {
+                "Guru": 9,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 42,
+            "counts": {
+                "Mlym": 23,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 23,
+            "counts": {
+                "Mlym": 14,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 36,
+            "counts": {
+                "Guru": 19,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 20,
+            "counts": {
+                "Sinh": 11,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 32,
+            "counts": {
+                "Guru": 19,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 22,
+            "counts": {
+                "Olck": 13,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 27,
+            "counts": {
+                "Guru": 19,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 14,
+            "counts": {
+                "Guru": 9,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 39,
+            "letters": 31,
+            "counts": {
+                "Guru": 19,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 39,
+            "letters": 16,
+            "counts": {
+                "Guru": 9,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 39,
+            "counts": {
+                "Arab": 20,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 29,
+            "counts": {
+                "Arab": 20,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 67,
+            "letters": 54,
+            "counts": {
+                "Latn": 35,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 67,
+            "letters": 44,
+            "counts": {
+                "Latn": 35,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 66,
+            "letters": 55,
+            "counts": {
+                "Cyrl": 36,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 66,
+            "letters": 45,
+            "counts": {
+                "Cyrl": 36,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 57,
+            "letters": 46,
+            "counts": {
+                "Grek": 27,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 57,
+            "letters": 36,
+            "counts": {
+                "Grek": 27,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 34,
+            "counts": {
+                "Guru": 19,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 24,
+            "counts": {
+                "Hebr": 15,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 45,
+            "letters": 40,
+            "counts": {
+                "Thai": 21,
+                "Guru": 19
+            }
+        },
+        "ignore": {
+            "code_points": 45,
+            "letters": 29,
+            "counts": {
+                "Thai": 20,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Guru": 19,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 16,
+            "counts": {
+                "Guru": 9,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 25,
+            "counts": {
+                "Guru": 19,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 15,
+            "counts": {
+                "Guru": 9,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 25,
+            "counts": {
+                "Guru": 19,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 15,
+            "counts": {
+                "Guru": 9,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 27,
+            "counts": {
+                "Guru": 19,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 17,
+            "counts": {
+                "Guru": 9,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 39,
+            "letters": 33,
+            "counts": {
+                "Guru": 19,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 39,
+            "letters": 23,
+            "counts": {
+                "Zzzz": 14,
+                "Guru": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 37,
+            "counts": {
+                "Orya": 19,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 21,
+            "counts": {
+                "Orya": 11,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 37,
+            "counts": {
+                "Taml": 19,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 22,
+            "counts": {
+                "Taml": 12,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 40,
+            "counts": {
+                "Telu": 22,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 23,
+            "counts": {
+                "Telu": 13,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 31,
+            "counts": {
+                "Gujr": 18,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 19,
+            "counts": {
+                "Gujr": 10,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 41,
+            "counts": {
+                "Mlym": 23,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 24,
+            "counts": {
+                "Mlym": 14,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 35,
+            "counts": {
+                "Gujr": 18,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 21,
+            "counts": {
+                "Sinh": 11,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 36,
+            "letters": 31,
+            "counts": {
+                "Gujr": 18,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 36,
+            "letters": 23,
+            "counts": {
+                "Olck": 13,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Gujr": 18,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 15,
+            "counts": {
+                "Gujr": 10,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 30,
+            "counts": {
+                "Gujr": 18,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 17,
+            "counts": {
+                "Gujr": 10,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 38,
+            "counts": {
+                "Arab": 20,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 30,
+            "counts": {
+                "Arab": 20,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 65,
+            "letters": 53,
+            "counts": {
+                "Latn": 35,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 65,
+            "letters": 45,
+            "counts": {
+                "Latn": 35,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 64,
+            "letters": 54,
+            "counts": {
+                "Cyrl": 36,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 64,
+            "letters": 46,
+            "counts": {
+                "Cyrl": 36,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 55,
+            "letters": 45,
+            "counts": {
+                "Grek": 27,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 55,
+            "letters": 37,
+            "counts": {
+                "Grek": 27,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Gujr": 18,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 25,
+            "counts": {
+                "Hebr": 15,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 39,
+            "counts": {
+                "Thai": 21,
+                "Gujr": 18
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 30,
+            "counts": {
+                "Thai": 20,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Gujr": 18,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 17,
+            "counts": {
+                "Gujr": 10,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 24,
+            "counts": {
+                "Gujr": 18,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 16,
+            "counts": {
+                "Gujr": 10,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 24,
+            "counts": {
+                "Gujr": 18,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 16,
+            "counts": {
+                "Gujr": 10,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Gujr": 18,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 18,
+            "counts": {
+                "Gujr": 10,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 32,
+            "counts": {
+                "Gujr": 18,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 24,
+            "counts": {
+                "Zzzz": 14,
+                "Gujr": 10
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 45,
+            "letters": 38,
+            "counts": {
+                "Orya": 19,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 45,
+            "letters": 23,
+            "counts": {
+                "Taml": 12,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 41,
+            "counts": {
+                "Telu": 22,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 24,
+            "counts": {
+                "Telu": 13,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 32,
+            "counts": {
+                "Orya": 19,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 20,
+            "counts": {
+                "Orya": 11,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 42,
+            "counts": {
+                "Mlym": 23,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 25,
+            "counts": {
+                "Mlym": 14,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 36,
+            "counts": {
+                "Orya": 19,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 22,
+            "counts": {
+                "Orya": 11,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 32,
+            "counts": {
+                "Orya": 19,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 24,
+            "counts": {
+                "Olck": 13,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 27,
+            "counts": {
+                "Orya": 19,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 16,
+            "counts": {
+                "Orya": 11,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 31,
+            "counts": {
+                "Orya": 19,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 18,
+            "counts": {
+                "Orya": 11,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 39,
+            "counts": {
+                "Arab": 20,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 31,
+            "counts": {
+                "Arab": 20,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 66,
+            "letters": 54,
+            "counts": {
+                "Latn": 35,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 66,
+            "letters": 46,
+            "counts": {
+                "Latn": 35,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 65,
+            "letters": 55,
+            "counts": {
+                "Cyrl": 36,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 65,
+            "letters": 47,
+            "counts": {
+                "Cyrl": 36,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 56,
+            "letters": 46,
+            "counts": {
+                "Grek": 27,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 56,
+            "letters": 38,
+            "counts": {
+                "Grek": 27,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 34,
+            "counts": {
+                "Orya": 19,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 26,
+            "counts": {
+                "Hebr": 15,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 40,
+            "counts": {
+                "Thai": 21,
+                "Orya": 19
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 31,
+            "counts": {
+                "Thai": 20,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 26,
+            "counts": {
+                "Orya": 19,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 18,
+            "counts": {
+                "Orya": 11,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Orya": 19,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 17,
+            "counts": {
+                "Orya": 11,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Orya": 19,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 17,
+            "counts": {
+                "Orya": 11,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 27,
+            "counts": {
+                "Orya": 19,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 19,
+            "counts": {
+                "Orya": 11,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 33,
+            "counts": {
+                "Orya": 19,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 25,
+            "counts": {
+                "Zzzz": 14,
+                "Orya": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 41,
+            "counts": {
+                "Telu": 22,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 25,
+            "counts": {
+                "Telu": 13,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 32,
+            "counts": {
+                "Taml": 19,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 21,
+            "counts": {
+                "Taml": 12,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 42,
+            "counts": {
+                "Mlym": 23,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 26,
+            "counts": {
+                "Mlym": 14,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 36,
+            "counts": {
+                "Taml": 19,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 23,
+            "counts": {
+                "Taml": 12,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 32,
+            "counts": {
+                "Taml": 19,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 25,
+            "counts": {
+                "Olck": 13,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 27,
+            "counts": {
+                "Taml": 19,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 17,
+            "counts": {
+                "Taml": 12,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 31,
+            "counts": {
+                "Taml": 19,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 19,
+            "counts": {
+                "Taml": 12,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 39,
+            "counts": {
+                "Arab": 20,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 32,
+            "counts": {
+                "Arab": 20,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 66,
+            "letters": 54,
+            "counts": {
+                "Latn": 35,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 66,
+            "letters": 47,
+            "counts": {
+                "Latn": 35,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 65,
+            "letters": 55,
+            "counts": {
+                "Cyrl": 36,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 65,
+            "letters": 48,
+            "counts": {
+                "Cyrl": 36,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 56,
+            "letters": 46,
+            "counts": {
+                "Grek": 27,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 56,
+            "letters": 39,
+            "counts": {
+                "Grek": 27,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 34,
+            "counts": {
+                "Taml": 19,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 27,
+            "counts": {
+                "Hebr": 15,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 40,
+            "counts": {
+                "Thai": 21,
+                "Taml": 19
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 32,
+            "counts": {
+                "Thai": 20,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 26,
+            "counts": {
+                "Taml": 19,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 19,
+            "counts": {
+                "Taml": 12,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Taml": 19,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 18,
+            "counts": {
+                "Taml": 12,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Taml": 19,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 18,
+            "counts": {
+                "Taml": 12,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 27,
+            "counts": {
+                "Taml": 19,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 20,
+            "counts": {
+                "Taml": 12,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 33,
+            "counts": {
+                "Taml": 19,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 26,
+            "counts": {
+                "Zzzz": 14,
+                "Taml": 12
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 35,
+            "counts": {
+                "Telu": 22,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 22,
+            "counts": {
+                "Telu": 13,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 52,
+            "letters": 45,
+            "counts": {
+                "Mlym": 23,
+                "Telu": 22
+            }
+        },
+        "ignore": {
+            "code_points": 52,
+            "letters": 27,
+            "counts": {
+                "Mlym": 14,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 45,
+            "letters": 39,
+            "counts": {
+                "Telu": 22,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 45,
+            "letters": 24,
+            "counts": {
+                "Telu": 13,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 35,
+            "counts": {
+                "Telu": 22,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 26,
+            "counts": {
+                "Telu": 13,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 30,
+            "counts": {
+                "Telu": 22,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 18,
+            "counts": {
+                "Telu": 13,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 34,
+            "counts": {
+                "Telu": 22,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 20,
+            "counts": {
+                "Telu": 13,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 42,
+            "counts": {
+                "Telu": 22,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 33,
+            "counts": {
+                "Arab": 20,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 69,
+            "letters": 57,
+            "counts": {
+                "Latn": 35,
+                "Telu": 22
+            }
+        },
+        "ignore": {
+            "code_points": 69,
+            "letters": 48,
+            "counts": {
+                "Latn": 35,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 68,
+            "letters": 58,
+            "counts": {
+                "Cyrl": 36,
+                "Telu": 22
+            }
+        },
+        "ignore": {
+            "code_points": 68,
+            "letters": 49,
+            "counts": {
+                "Cyrl": 36,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 59,
+            "letters": 49,
+            "counts": {
+                "Grek": 27,
+                "Telu": 22
+            }
+        },
+        "ignore": {
+            "code_points": 59,
+            "letters": 40,
+            "counts": {
+                "Grek": 27,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 37,
+            "counts": {
+                "Telu": 22,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 28,
+            "counts": {
+                "Hebr": 15,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 47,
+            "letters": 43,
+            "counts": {
+                "Telu": 22,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 47,
+            "letters": 33,
+            "counts": {
+                "Thai": 20,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 29,
+            "counts": {
+                "Telu": 22,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 20,
+            "counts": {
+                "Telu": 13,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 28,
+            "counts": {
+                "Telu": 22,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 19,
+            "counts": {
+                "Telu": 13,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 28,
+            "counts": {
+                "Telu": 22,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 19,
+            "counts": {
+                "Telu": 13,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 30,
+            "counts": {
+                "Telu": 22,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 21,
+            "counts": {
+                "Telu": 13,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 36,
+            "counts": {
+                "Telu": 22,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 27,
+            "counts": {
+                "Zzzz": 14,
+                "Telu": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 36,
+            "counts": {
+                "Mlym": 23,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 23,
+            "counts": {
+                "Mlym": 14,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 30,
+            "counts": {
+                "Sinh": 17,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 20,
+            "counts": {
+                "Sinh": 11,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 26,
+            "counts": {
+                "Knda": 13,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 22,
+            "counts": {
+                "Olck": 13,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 21,
+            "counts": {
+                "Knda": 13,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 14,
+            "counts": {
+                "Knda": 9,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 25,
+            "counts": {
+                "Knda": 13,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 16,
+            "counts": {
+                "Knda": 9,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Arab": 20,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 29,
+            "counts": {
+                "Arab": 20,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 59,
+            "letters": 48,
+            "counts": {
+                "Latn": 35,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 59,
+            "letters": 44,
+            "counts": {
+                "Latn": 35,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 58,
+            "letters": 49,
+            "counts": {
+                "Cyrl": 36,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 58,
+            "letters": 45,
+            "counts": {
+                "Cyrl": 36,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 40,
+            "counts": {
+                "Grek": 27,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 36,
+            "counts": {
+                "Grek": 27,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 28,
+            "counts": {
+                "Hebr": 15,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 24,
+            "counts": {
+                "Hebr": 15,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 34,
+            "counts": {
+                "Thai": 21,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 29,
+            "counts": {
+                "Thai": 20,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 23,
+            "letters": 20,
+            "counts": {
+                "Knda": 13,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 23,
+            "letters": 16,
+            "counts": {
+                "Knda": 9,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 19,
+            "counts": {
+                "Knda": 13,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 15,
+            "counts": {
+                "Knda": 9,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 19,
+            "counts": {
+                "Knda": 13,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 15,
+            "counts": {
+                "Knda": 9,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 21,
+            "counts": {
+                "Knda": 13,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 17,
+            "counts": {
+                "Knda": 9,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 27,
+            "counts": {
+                "Zzzz": 14,
+                "Knda": 13
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 23,
+            "counts": {
+                "Zzzz": 14,
+                "Knda": 9
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 40,
+            "counts": {
+                "Mlym": 23,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 25,
+            "counts": {
+                "Mlym": 14,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 36,
+            "counts": {
+                "Mlym": 23,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 27,
+            "counts": {
+                "Mlym": 14,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 36,
+            "letters": 31,
+            "counts": {
+                "Mlym": 23,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 36,
+            "letters": 19,
+            "counts": {
+                "Mlym": 14,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 35,
+            "counts": {
+                "Mlym": 23,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 21,
+            "counts": {
+                "Mlym": 14,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 51,
+            "letters": 43,
+            "counts": {
+                "Mlym": 23,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 51,
+            "letters": 34,
+            "counts": {
+                "Arab": 20,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 70,
+            "letters": 58,
+            "counts": {
+                "Latn": 35,
+                "Mlym": 23
+            }
+        },
+        "ignore": {
+            "code_points": 70,
+            "letters": 49,
+            "counts": {
+                "Latn": 35,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 69,
+            "letters": 59,
+            "counts": {
+                "Cyrl": 36,
+                "Mlym": 23
+            }
+        },
+        "ignore": {
+            "code_points": 69,
+            "letters": 50,
+            "counts": {
+                "Cyrl": 36,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 60,
+            "letters": 50,
+            "counts": {
+                "Grek": 27,
+                "Mlym": 23
+            }
+        },
+        "ignore": {
+            "code_points": 60,
+            "letters": 41,
+            "counts": {
+                "Grek": 27,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 45,
+            "letters": 38,
+            "counts": {
+                "Mlym": 23,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 45,
+            "letters": 29,
+            "counts": {
+                "Hebr": 15,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 44,
+            "counts": {
+                "Mlym": 23,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 34,
+            "counts": {
+                "Thai": 20,
+                "Mlym": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 30,
+            "counts": {
+                "Mlym": 23,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 21,
+            "counts": {
+                "Mlym": 14,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 29,
+            "counts": {
+                "Mlym": 23,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 20,
+            "counts": {
+                "Mlym": 14,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 29,
+            "counts": {
+                "Mlym": 23,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 20,
+            "counts": {
+                "Mlym": 14,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 36,
+            "letters": 31,
+            "counts": {
+                "Mlym": 23,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 36,
+            "letters": 22,
+            "counts": {
+                "Mlym": 14,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 42,
+            "letters": 37,
+            "counts": {
+                "Mlym": 23,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 42,
+            "letters": 28,
+            "counts": {
+                "Mlym": 14,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 30,
+            "counts": {
+                "Sinh": 17,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 24,
+            "counts": {
+                "Olck": 13,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Sinh": 17,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 16,
+            "counts": {
+                "Sinh": 11,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 29,
+            "counts": {
+                "Sinh": 17,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 18,
+            "counts": {
+                "Sinh": 11,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 44,
+            "letters": 37,
+            "counts": {
+                "Arab": 20,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 44,
+            "letters": 31,
+            "counts": {
+                "Arab": 20,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 63,
+            "letters": 52,
+            "counts": {
+                "Latn": 35,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 63,
+            "letters": 46,
+            "counts": {
+                "Latn": 35,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 62,
+            "letters": 53,
+            "counts": {
+                "Cyrl": 36,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 62,
+            "letters": 47,
+            "counts": {
+                "Cyrl": 36,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 53,
+            "letters": 44,
+            "counts": {
+                "Grek": 27,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 53,
+            "letters": 38,
+            "counts": {
+                "Grek": 27,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 38,
+            "letters": 32,
+            "counts": {
+                "Sinh": 17,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 38,
+            "letters": 26,
+            "counts": {
+                "Hebr": 15,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 38,
+            "counts": {
+                "Thai": 21,
+                "Sinh": 17
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 31,
+            "counts": {
+                "Thai": 20,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 27,
+            "letters": 24,
+            "counts": {
+                "Sinh": 17,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 27,
+            "letters": 18,
+            "counts": {
+                "Sinh": 11,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 26,
+            "letters": 23,
+            "counts": {
+                "Sinh": 17,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 26,
+            "letters": 17,
+            "counts": {
+                "Sinh": 11,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 26,
+            "letters": 23,
+            "counts": {
+                "Sinh": 17,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 26,
+            "letters": 17,
+            "counts": {
+                "Sinh": 11,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 25,
+            "counts": {
+                "Sinh": 17,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 19,
+            "counts": {
+                "Sinh": 11,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 35,
+            "letters": 31,
+            "counts": {
+                "Sinh": 17,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 35,
+            "letters": 25,
+            "counts": {
+                "Zzzz": 14,
+                "Sinh": 11
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 24,
+            "letters": 21,
+            "counts": {
+                "Olck": 13,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 24,
+            "letters": 18,
+            "counts": {
+                "Olck": 13,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 25,
+            "counts": {
+                "Olck": 13,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 20,
+            "counts": {
+                "Olck": 13,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 39,
+            "letters": 33,
+            "counts": {
+                "Arab": 20,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 39,
+            "letters": 33,
+            "counts": {
+                "Arab": 20,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 58,
+            "letters": 48,
+            "counts": {
+                "Latn": 35,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 58,
+            "letters": 48,
+            "counts": {
+                "Latn": 35,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 57,
+            "letters": 49,
+            "counts": {
+                "Cyrl": 36,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 57,
+            "letters": 49,
+            "counts": {
+                "Cyrl": 36,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 48,
+            "letters": 40,
+            "counts": {
+                "Grek": 27,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 48,
+            "letters": 40,
+            "counts": {
+                "Grek": 27,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 33,
+            "letters": 28,
+            "counts": {
+                "Hebr": 15,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 33,
+            "letters": 28,
+            "counts": {
+                "Hebr": 15,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 36,
+            "letters": 34,
+            "counts": {
+                "Thai": 21,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 36,
+            "letters": 33,
+            "counts": {
+                "Thai": 20,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 20,
+            "counts": {
+                "Olck": 13,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 20,
+            "counts": {
+                "Olck": 13,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 21,
+            "letters": 19,
+            "counts": {
+                "Olck": 13,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 21,
+            "letters": 19,
+            "counts": {
+                "Olck": 13,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 21,
+            "letters": 19,
+            "counts": {
+                "Olck": 13,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 21,
+            "letters": 19,
+            "counts": {
+                "Olck": 13,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 24,
+            "letters": 21,
+            "counts": {
+                "Olck": 13,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 24,
+            "letters": 21,
+            "counts": {
+                "Olck": 13,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 30,
+            "letters": 27,
+            "counts": {
+                "Zzzz": 14,
+                "Olck": 13
+            }
+        },
+        "ignore": {
+            "code_points": 30,
+            "letters": 27,
+            "counts": {
+                "Zzzz": 14,
+                "Olck": 13
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 20,
+            "counts": {
+                "Tibt": 12,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 12,
+            "counts": {
+                "Tibt": 7,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 28,
+            "counts": {
+                "Arab": 20,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 25,
+            "counts": {
+                "Arab": 20,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 53,
+            "letters": 43,
+            "counts": {
+                "Latn": 35,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 53,
+            "letters": 40,
+            "counts": {
+                "Latn": 35,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 52,
+            "letters": 44,
+            "counts": {
+                "Cyrl": 36,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 52,
+            "letters": 41,
+            "counts": {
+                "Cyrl": 36,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Grek": 27,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 32,
+            "counts": {
+                "Grek": 27,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 23,
+            "counts": {
+                "Hebr": 15,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 20,
+            "counts": {
+                "Hebr": 15,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 29,
+            "counts": {
+                "Thai": 21,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 25,
+            "counts": {
+                "Thai": 20,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 17,
+            "letters": 15,
+            "counts": {
+                "Mtei": 8,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 17,
+            "letters": 12,
+            "counts": {
+                "Hani": 7,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 16,
+            "letters": 14,
+            "counts": {
+                "Mtei": 8,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 16,
+            "letters": 11,
+            "counts": {
+                "Hira": 6,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 16,
+            "letters": 14,
+            "counts": {
+                "Mtei": 8,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 16,
+            "letters": 11,
+            "counts": {
+                "Kana": 6,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 19,
+            "letters": 16,
+            "counts": {
+                "Mtei": 8,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 19,
+            "letters": 13,
+            "counts": {
+                "Hang": 8,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 22,
+            "counts": {
+                "Zzzz": 14,
+                "Mtei": 8
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 19,
+            "counts": {
+                "Zzzz": 14,
+                "Mtei": 5
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 32,
+            "counts": {
+                "Arab": 20,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 27,
+            "counts": {
+                "Arab": 20,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 59,
+            "letters": 47,
+            "counts": {
+                "Latn": 35,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 59,
+            "letters": 42,
+            "counts": {
+                "Latn": 35,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 58,
+            "letters": 48,
+            "counts": {
+                "Cyrl": 36,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 58,
+            "letters": 43,
+            "counts": {
+                "Cyrl": 36,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 39,
+            "counts": {
+                "Grek": 27,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 34,
+            "counts": {
+                "Grek": 27,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 27,
+            "counts": {
+                "Hebr": 15,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 22,
+            "counts": {
+                "Hebr": 15,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 33,
+            "counts": {
+                "Thai": 21,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 27,
+            "counts": {
+                "Thai": 20,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 23,
+            "letters": 19,
+            "counts": {
+                "Tibt": 12,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 23,
+            "letters": 14,
+            "counts": {
+                "Tibt": 7,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 18,
+            "counts": {
+                "Tibt": 12,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 13,
+            "counts": {
+                "Tibt": 7,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 18,
+            "counts": {
+                "Tibt": 12,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 13,
+            "counts": {
+                "Tibt": 7,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 20,
+            "counts": {
+                "Tibt": 12,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 15,
+            "counts": {
+                "Hang": 8,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Zzzz": 14,
+                "Tibt": 12
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 21,
+            "counts": {
+                "Zzzz": 14,
+                "Tibt": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 68,
+            "letters": 55,
+            "counts": {
+                "Latn": 35,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 68,
+            "letters": 55,
+            "counts": {
+                "Latn": 35,
+                "Arab": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 67,
+            "letters": 56,
+            "counts": {
+                "Cyrl": 36,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 67,
+            "letters": 56,
+            "counts": {
+                "Cyrl": 36,
+                "Arab": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 58,
+            "letters": 47,
+            "counts": {
+                "Grek": 27,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 58,
+            "letters": 47,
+            "counts": {
+                "Grek": 27,
+                "Arab": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Arab": 20,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Arab": 20,
+                "Hebr": 15
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 46,
+            "letters": 41,
+            "counts": {
+                "Thai": 21,
+                "Arab": 20
+            }
+        },
+        "ignore": {
+            "code_points": 46,
+            "letters": 40,
+            "counts": {
+                "Arab": 20,
+                "Thai": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 32,
+            "letters": 27,
+            "counts": {
+                "Arab": 20,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 32,
+            "letters": 27,
+            "counts": {
+                "Arab": 20,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Arab": 20,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Arab": 20,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Arab": 20,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 26,
+            "counts": {
+                "Arab": 20,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 28,
+            "counts": {
+                "Arab": 20,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 28,
+            "counts": {
+                "Arab": 20,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 34,
+            "counts": {
+                "Arab": 20,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 34,
+            "counts": {
+                "Arab": 20,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 86,
+            "letters": 71,
+            "counts": {
+                "Cyrl": 36,
+                "Latn": 35
+            }
+        },
+        "ignore": {
+            "code_points": 86,
+            "letters": 71,
+            "counts": {
+                "Cyrl": 36,
+                "Latn": 35
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 77,
+            "letters": 62,
+            "counts": {
+                "Latn": 35,
+                "Grek": 27
+            }
+        },
+        "ignore": {
+            "code_points": 77,
+            "letters": 62,
+            "counts": {
+                "Latn": 35,
+                "Grek": 27
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 62,
+            "letters": 50,
+            "counts": {
+                "Latn": 35,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 62,
+            "letters": 50,
+            "counts": {
+                "Latn": 35,
+                "Hebr": 15
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 65,
+            "letters": 56,
+            "counts": {
+                "Latn": 35,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 65,
+            "letters": 55,
+            "counts": {
+                "Latn": 35,
+                "Thai": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 51,
+            "letters": 42,
+            "counts": {
+                "Latn": 35,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 51,
+            "letters": 42,
+            "counts": {
+                "Latn": 35,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 41,
+            "counts": {
+                "Latn": 35,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 41,
+            "counts": {
+                "Latn": 35,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 41,
+            "counts": {
+                "Latn": 35,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 41,
+            "counts": {
+                "Latn": 35,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 53,
+            "letters": 43,
+            "counts": {
+                "Latn": 35,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 53,
+            "letters": 43,
+            "counts": {
+                "Latn": 35,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 59,
+            "letters": 49,
+            "counts": {
+                "Latn": 35,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 59,
+            "letters": 49,
+            "counts": {
+                "Latn": 35,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 76,
+            "letters": 63,
+            "counts": {
+                "Cyrl": 36,
+                "Grek": 27
+            }
+        },
+        "ignore": {
+            "code_points": 76,
+            "letters": 63,
+            "counts": {
+                "Cyrl": 36,
+                "Grek": 27
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 61,
+            "letters": 51,
+            "counts": {
+                "Cyrl": 36,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 61,
+            "letters": 51,
+            "counts": {
+                "Cyrl": 36,
+                "Hebr": 15
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 64,
+            "letters": 57,
+            "counts": {
+                "Cyrl": 36,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 64,
+            "letters": 56,
+            "counts": {
+                "Cyrl": 36,
+                "Thai": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 50,
+            "letters": 43,
+            "counts": {
+                "Cyrl": 36,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 50,
+            "letters": 43,
+            "counts": {
+                "Cyrl": 36,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 42,
+            "counts": {
+                "Cyrl": 36,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 42,
+            "counts": {
+                "Cyrl": 36,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 42,
+            "counts": {
+                "Cyrl": 36,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 42,
+            "counts": {
+                "Cyrl": 36,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 52,
+            "letters": 44,
+            "counts": {
+                "Cyrl": 36,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 52,
+            "letters": 44,
+            "counts": {
+                "Cyrl": 36,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 58,
+            "letters": 50,
+            "counts": {
+                "Cyrl": 36,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 58,
+            "letters": 50,
+            "counts": {
+                "Cyrl": 36,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 52,
+            "letters": 42,
+            "counts": {
+                "Grek": 27,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 52,
+            "letters": 42,
+            "counts": {
+                "Grek": 27,
+                "Hebr": 15
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 55,
+            "letters": 48,
+            "counts": {
+                "Grek": 27,
+                "Thai": 21
+            }
+        },
+        "ignore": {
+            "code_points": 55,
+            "letters": 47,
+            "counts": {
+                "Grek": 27,
+                "Thai": 20
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 41,
+            "letters": 34,
+            "counts": {
+                "Grek": 27,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 41,
+            "letters": 34,
+            "counts": {
+                "Grek": 27,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Grek": 27,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Grek": 27,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Grek": 27,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 33,
+            "counts": {
+                "Grek": 27,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Grek": 27,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 43,
+            "letters": 35,
+            "counts": {
+                "Grek": 27,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 49,
+            "letters": 41,
+            "counts": {
+                "Grek": 27,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 49,
+            "letters": 41,
+            "counts": {
+                "Grek": 27,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 40,
+            "letters": 36,
+            "counts": {
+                "Thai": 21,
+                "Hebr": 15
+            }
+        },
+        "ignore": {
+            "code_points": 40,
+            "letters": 35,
+            "counts": {
+                "Thai": 20,
+                "Hebr": 15
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 26,
+            "letters": 22,
+            "counts": {
+                "Hebr": 15,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 26,
+            "letters": 22,
+            "counts": {
+                "Hebr": 15,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 21,
+            "counts": {
+                "Hebr": 15,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 21,
+            "counts": {
+                "Hebr": 15,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 21,
+            "counts": {
+                "Hebr": 15,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 21,
+            "counts": {
+                "Hebr": 15,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 23,
+            "counts": {
+                "Hebr": 15,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 23,
+            "counts": {
+                "Hebr": 15,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 34,
+            "letters": 29,
+            "counts": {
+                "Hebr": 15,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 34,
+            "letters": 29,
+            "counts": {
+                "Hebr": 15,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 29,
+            "letters": 28,
+            "counts": {
+                "Thai": 21,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 29,
+            "letters": 27,
+            "counts": {
+                "Thai": 20,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 27,
+            "counts": {
+                "Thai": 21,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 26,
+            "counts": {
+                "Thai": 20,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 28,
+            "letters": 27,
+            "counts": {
+                "Thai": 21,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 28,
+            "letters": 26,
+            "counts": {
+                "Thai": 20,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 31,
+            "letters": 29,
+            "counts": {
+                "Thai": 21,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 31,
+            "letters": 28,
+            "counts": {
+                "Thai": 20,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 37,
+            "letters": 35,
+            "counts": {
+                "Thai": 21,
+                "Zzzz": 14
+            }
+        },
+        "ignore": {
+            "code_points": 37,
+            "letters": 34,
+            "counts": {
+                "Thai": 20,
+                "Zzzz": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 14,
+            "letters": 13,
+            "counts": {
+                "Hani": 7,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 14,
+            "letters": 13,
+            "counts": {
+                "Hani": 7,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 14,
+            "letters": 13,
+            "counts": {
+                "Hani": 7,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 14,
+            "letters": 13,
+            "counts": {
+                "Hani": 7,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 17,
+            "letters": 15,
+            "counts": {
+                "Hang": 8,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 17,
+            "letters": 15,
+            "counts": {
+                "Hang": 8,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 23,
+            "letters": 21,
+            "counts": {
+                "Zzzz": 14,
+                "Hani": 7
+            }
+        },
+        "ignore": {
+            "code_points": 23,
+            "letters": 21,
+            "counts": {
+                "Zzzz": 14,
+                "Hani": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 13,
+            "letters": 12,
+            "counts": {
+                "Hira": 6,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 13,
+            "letters": 12,
+            "counts": {
+                "Hira": 6,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 16,
+            "letters": 14,
+            "counts": {
+                "Hang": 8,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 16,
+            "letters": 14,
+            "counts": {
+                "Hang": 8,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 20,
+            "counts": {
+                "Zzzz": 14,
+                "Hira": 6
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 20,
+            "counts": {
+                "Zzzz": 14,
+                "Hira": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 16,
+            "letters": 14,
+            "counts": {
+                "Hang": 8,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 16,
+            "letters": 14,
+            "counts": {
+                "Hang": 8,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 20,
+            "counts": {
+                "Zzzz": 14,
+                "Kana": 6
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 20,
+            "counts": {
+                "Zzzz": 14,
+                "Kana": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 25,
+            "letters": 22,
+            "counts": {
+                "Zzzz": 14,
+                "Hang": 8
+            }
+        },
+        "ignore": {
+            "code_points": 25,
+            "letters": 22,
+            "counts": {
+                "Zzzz": 14,
+                "Hang": 8
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 21,
+            "letters": 16,
+            "counts": {
+                "Latn": 16
+            }
+        },
+        "ignore": {
+            "code_points": 21,
+            "letters": 14,
+            "counts": {
+                "Latn": 14
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 22,
+            "letters": 11,
+            "counts": {
+                "Deva": 11
+            }
+        },
+        "ignore": {
+            "code_points": 22,
+            "letters": 6,
+            "counts": {
+                "Deva": 6
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 10,
+            "letters": 9,
+            "counts": {
+                "Taml": 6,
+                "Mlym": 3
+            }
+        },
+        "ignore": {
+            "code_points": 10,
+            "letters": 4,
+            "counts": {
+                "Taml": 4
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 21,
+            "letters": 11,
+            "counts": {
+                "Latn": 9,
+                "Arab": 2
+            }
+        },
+        "ignore": {
+            "code_points": 21,
+            "letters": 11,
+            "counts": {
+                "Latn": 9,
+                "Arab": 2
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 82,
+            "letters": 64,
+            "counts": {
+                "Deva": 61,
+                "Latn": 3
+            }
+        },
+        "ignore": {
+            "code_points": 82,
+            "letters": 43,
+            "counts": {
+                "Deva": 40,
+                "Latn": 3
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 86,
+            "letters": 7,
+            "counts": {
+                "Latn": 7
+            }
+        },
+        "ignore": {
+            "code_points": 86,
+            "letters": 7,
+            "counts": {
+                "Latn": 7
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 23,
+            "letters": 21,
+            "counts": {
+                "Hira": 11,
+                "Hani": 6,
+                "Kana": 4
+            }
+        },
+        "ignore": {
+            "code_points": 23,
+            "letters": 21,
+            "counts": {
+                "Hira": 11,
+                "Hani": 6,
+                "Kana": 4
+            }
+        }
+    },
+    {
+        "count": {
+            "code_points": 14,
+            "letters": 0,
+            "counts": []
+        },
+        "ignore": {
+            "code_points": 14,
+            "letters": 0,
+            "counts": []
+        }
+    }
+]
