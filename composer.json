@@ -1,0 +1,54 @@
+{
+    "name": "indianopinion/script-share",
+    "description": "Reports what share of a string's letters fall in each writing system. Catches a model answering in the wrong script.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["unicode", "script", "devanagari", "indic", "language-detection", "llm", "utf-8"],
+    "homepage": "https://github.com/IndianOpinion/script-share",
+    "support": {
+        "issues": "https://github.com/IndianOpinion/script-share/issues",
+        "source": "https://github.com/IndianOpinion/script-share",
+        "email": "hello@indianopinion.org"
+    },
+    "authors": [
+        {
+            "name": "Indian Opinion",
+            "email": "hello@indianopinion.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-mbstring": "*",
+        "ext-pcre": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^10.5",
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "IndianOpinion\\ScriptShare\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IndianOpinion\\ScriptShare\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "stan": "phpstan analyse --no-progress --memory-limit=512M",
+        "cs": "phpcs",
+        "cs-fix": "phpcbf",
+        "bench": "php bench/bench.php",
+        "check": ["@cs", "@stan", "@test"]
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.1.0"
+        }
+    },
+    "minimum-stability": "stable"
+}
